@@ -1,18 +1,14 @@
 package com.solvd.laba;
 
-import java.lang.reflect.Member;
 import java.util.Scanner;
-import java.util.logging.LogManager;
 
-import com.solvd.ta.lab2.Cart;
-import com.solvd.ta.lab2.Librarian;
-import com.solvd.ta.lab2.Library;
-import com.solvd.ta.lab2.Populate;
-import com.solvd.ta.lab2.Storage;
-import com.solvd.ta.lab2.exceptions.AlreadyRegisteredException;
-import com.solvd.ta.lab2.exceptions.CartIsEmptyException;
-import com.solvd.ta.lab2.exceptions.NotRegisteredException;
-import com.solvd.ta.lab2.exceptions.OutOfRangeException;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import com.solvd.laba.exceptions.AlreadyRegisteredException;
+import com.solvd.laba.exceptions.CartIsEmptyException;
+import com.solvd.laba.exceptions.NotRegisteredException;
+import com.solvd.laba.exceptions.OutOfRangeException;
 
 public class Main {
 	private static final Logger logger = LogManager.getLogger(Main.class);
